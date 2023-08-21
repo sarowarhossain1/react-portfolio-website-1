@@ -6,15 +6,19 @@ import HeaderSocial from './HeaderSocial'
 import ME from '../../assets/me.png'
 
 const Header = () => {
+
   return (
    <header>
      <div className="container header_container">
-      <h4>I am a MERN Stack Developer</h4>
-     <h1> <Typewriter text="Md Sarowar Hossain Nayem" loop={true} speed={300}></Typewriter></h1>
+      <h4>Hello There! I'm,</h4>
+      <h3 >Md.Sarowar Hossain Nayem</h3>
+      <h5>I'm a,</h5>
+      <Typewriter text="Mern-Stack Developer"  loop={true} speed={400}></Typewriter>
+     
         <CTA></CTA>
         <HeaderSocial></HeaderSocial>
 
-        <div className="me">
+        <div className="me" >
           <img src={ME} alt="me" />
         </div>
      

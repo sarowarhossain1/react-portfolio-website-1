@@ -7,7 +7,7 @@ const About = () => {
    <section id='about'>
    <h5>Get to Know</h5>
    <h2>About Me</h2>
-    <div className=" about_container">
+    <div className="container about_container">
       <div className="about_me">
         <div className="about_me-image">
           <img src={MY}  alt="About Image" />
@@ -16,15 +16,25 @@ const About = () => {
       <div className="about_content">
        <div className="about_cards">
         <article className='about_card'>
-         <p className='about_content'>I'm Md Sarowar Hossain Nayem, and i Live in Rajshahi.I am studied Computer Science and Engineering(CSE) at the Rajshahi Science & Technology University.
-           <br />
-           In the last two years, I have worked hard to get better at different things. I have given a lot of importance to managing my time well, and it has really helped me improve my skills. Specifically, I have focused on getting better at React, MongoDB, and JavaScript.
-           
-                </p>
+          <h2 className='about_title'>Front End Developer | MERN-Stack Developer</h2>
+         <p className='about_content'>I'm Md Sarowar Hossain Nayem, and i Live in Rajshahi.I am studied Computer Science and Engineering(CSE) at the Rajshahi Science & Technology University.I'm a MERN Stack Developer । Web developing is my passion. That's why i explore with Full Stack development Technology
+          </p>
+          <div className='About_info'>
+            <div className='about_info-title'>
+               <h5> Name: Md.Sarowar Hossain Nayem</h5>
+               <h5>Phone:++01612648699</h5>
+               <h5>Address: Rajshahi,Bangladesh</h5>
+            </div>
+            <div className='about_info-title'>
+              <h5> Birth Date: 10 August 1996</h5>
+              <h5>Experience: 2 Year + learning Experience</h5>
+              <h5>Email: mdnayem357878@gmail.com</h5>
+            </div>
+          </div>
         </article>
        </div>
 
-       <a href="#contact" className='btn btn-primary'> Hire Me</a>
+       <a href="#contact" className='btn'> Hire Me</a>
       </div>
     </div>
 

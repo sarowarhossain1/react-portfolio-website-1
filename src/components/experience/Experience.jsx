@@ -1,56 +1,111 @@
 import React from 'react'
 import './experience.css'
 
+
+
 const Experience = () => {
   return (
-    <section id='mySkill'>
-      <h2>MY SKILL</h2>
-   <div className="skill_container">
-    <div className="skill_frontend">
-      <h3>Frontend Development</h3>
-       <div className="skill_content">
-        <article className='skill_details'>
-           <h4>HTML</h4>
-        </article>
-        <article className='skill_details'>
-           <h4>CSS</h4>
-        </article>
-        <article className='skill_details'>
-           <h4>JavaScript</h4>
-        </article>
-        <article className='skill_details'>
-           <h4>React.js</h4>
-        </article>
-        <article className='skill_details'>
-           <h4>Tailwind</h4>
-        </article>
-        <article className='skill_details'>
-           <h4>Bootstrap</h4>
-        </article>
-       </div>
-    </div>
-    <div className="skill_backend">
-    <h3>Backend Development</h3>
-       <div className="skill_content">
-        <article className='skill_details'>
-           <h4>Node.js</h4>
-        </article>
-        <article className='skill_details'>
-           <h4>Express</h4>
-        </article>
-        <article className='skill_details'>
-           <h4>MongoDB</h4>
-        </article>
-        <article className='skill_details'>
-           <h4>JWT</h4>
-        </article>
-        <article className='skill_details'>
-           <h4>Firebase</h4>
-        </article>
-       </div>
-    </div>
-    </div>
-    </section>
+    <section id='mySkill' className='skills'>
+     <h2>MY SKILL</h2>
+     <div className='container skill-main'>
+      <div className='skill-left'>
+        <h3>Frontend Development</h3>
+        <div className=' skill-bar'>
+          <div className='info'>
+            <p>HTML</p>
+             <p>90%</p>
+          </div>
+          <div className='bar'>
+            <span className='html'></span>
+          </div>
+        </div>
+      <div className=' skill-bar'>
+          <div className='info'>
+            <p>CSS</p>
+             <p>80%</p>
+          </div>
+          <div className='bar'>
+            <span className='css'></span>
+          </div>
+        </div>
+        <div className='skill-bar'>
+          <div className='info'>
+            <p>JavaScript</p>
+             <p>75%</p>
+          </div>
+          <div className='bar'>
+            <span className='javaScript'></span>
+          </div>
+        </div>
+        <div className=' skill-bar'>
+          <div className='info'>
+            <p>React.js</p>
+             <p>85%</p>
+          </div>
+          <div className='bar'>
+            <span className='react'></span>
+          </div>
+        </div>
+        <div className=' skill-bar'>
+          <div className='info'>
+            <p>Tailwind</p>
+             <p>80%</p>
+          </div>
+          <div className='bar'>
+            <span className='tailwind'></span>
+          </div>
+        </div>
+        <div className='skill-bar'>
+          <div className='info'>
+            <p>Bootstrap</p>
+             <p>85%</p>
+          </div>
+          <div className='bar'>
+            <span className='bootstrap'></span>
+          </div>
+        </div>
+        </div>
+      <div className='skill-left'>
+      <h3>Backend Development</h3>
+      <div className=' skill-bar'>
+          <div className='info'>
+            <p>Node.js</p>
+             <p>75%</p>
+          </div>
+          <div className='bar'>
+            <span className='node'></span>
+          </div>
+        </div>
+      <div className=' skill-bar'>
+          <div className='info'>
+            <p>Express</p>
+             <p>70%</p>
+          </div>
+          <div className='bar'>
+            <span className='express'></span>
+          </div>
+        </div>
+      <div className=' skill-bar'>
+          <div className='info'>
+            <p>MongoDB</p>
+             <p>60%</p>
+          </div>
+          <div className='bar'>
+            <span className='mongoDB'></span>
+          </div>
+        </div>
+      <div className=' skill-bar'>
+          <div className='info'>
+            <p>Firebase</p>
+             <p>35%</p>
+          </div>
+          <div className='bar'>
+            <span className='firebase'></span>
+          </div>
+        </div>
+        </div>
+        </div>
+   </section>
   )
 }
 

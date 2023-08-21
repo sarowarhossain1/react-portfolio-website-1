@@ -3,6 +3,10 @@
     grid-template-columns: 35% 50%;
     gap: 15%;
 }
+.About_info{
+  display: flex;
+  gap: 2rem;
+}
 .about_me {
     width: 100%;
     aspect-ratio: 1/1;
@@ -45,6 +49,7 @@
 }
 
 
+
 /*  ------------ MEDIA QUERIES (MEDIUM DEVICE)--------    */
 
 @media screen and (max-width:1024px) {
@@ -58,6 +63,10 @@
    }
    .about_content p {
     margin: 1rem 0 1.5rem;
+   }
+   .About_info {
+    display: grid;
+     grid-template-columns: 1fr;
    }
      }
    
