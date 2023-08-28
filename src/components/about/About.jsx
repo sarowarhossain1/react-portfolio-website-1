@@ -21,14 +21,14 @@ const About = () => {
           </p>
           <div className='About_info'>
             <div className='about_info-title'>
-               <h5> Name: Md.Sarowar Hossain Nayem</h5>
-               <h5>Phone:++01612648699</h5>
-               <h5>Address: Rajshahi,Bangladesh</h5>
+               <h5> Name:<span className='name_title'> Md.Sarowar Hossain Nayem</span></h5>
+               <h5>Phone:<span className='name_title'>++01612648699</span></h5>
+               <h5>Address: <span className='name_title'>Rajshahi,Bangladesh</span> </h5>
             </div>
             <div className='about_info-title'>
-              <h5> Birth Date: 10 August 1996</h5>
-              <h5>Experience: 2 Year + learning Experience</h5>
-              <h5>Email: mdnayem357878@gmail.com</h5>
+              <h5> Birth Date: <span className='name_title'>10 August 1996</span></h5>
+              <h5>Experience: <span className='name_title'>2 Year + learning Experience</span></h5>
+              <h5>Email: <span  className='name_title'>mdnayem357878@gmail.com</span></h5>
             </div>
           </div>
         </article>

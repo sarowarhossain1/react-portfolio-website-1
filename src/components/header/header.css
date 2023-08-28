@@ -67,7 +67,7 @@ a.btn:hover::before{
 
 
 .me{
-    border: 2px solid white;
+    border: 2px solid var(--hover-color);
     width: 16rem;
     height: 30rem;
     position: absolute;
@@ -75,6 +75,7 @@ a.btn:hover::before{
     margin-top: 4rem;
     border-radius: 1rem 1rem 0 0;
     overflow: hidden;
+   
  
 }
 
